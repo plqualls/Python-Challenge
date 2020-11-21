@@ -65,7 +65,7 @@ with open(csvpath, newline='') as csvfile:
     print(f"Greatest Increase in Profits:{greatest_incr_month}(${high})")
     print(f"Greatest Decrease in Profits:{greatest_dec_month}(${low})")
 
-#Write results to specified folder
+#Write results to specified file.
 output_file = os.path.join('','PyBank', 'Analysis', 'Financial_Analysis.txt')
 
 #Open File to specify data.
